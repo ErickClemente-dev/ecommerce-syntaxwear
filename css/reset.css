@@ -65,3 +65,7 @@
   background: #b3d4fc;
   color: #000;
 }
+
+ul, ol {
+  list-style: none;
+}
