@@ -3,7 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Compre os melhores Tênis e Sneakers Online na SyntaxWear. Encontre modelos exclusivos para todas as ocasiões com ofertas imperdíveis e frete grátis para todo o Brasil. Compre agora e transforme seu estilo!" />
+    <meta
+      name="description"
+      content="Compre os melhores Tênis e Sneakers Online na SyntaxWear. Encontre modelos exclusivos para todas as ocasiões com ofertas imperdíveis e frete grátis para todo o Brasil. Compre agora e transforme seu estilo!"
+    />
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/variables.css" />
     <link rel="stylesheet" href="./css/base.css" />
@@ -11,6 +14,7 @@
     <link rel="stylesheet" href="./css/components/header.css" />
     <link rel="stylesheet" href="./css/components/hero.css" />
     <link rel="stylesheet" href="./css/components/product-cards.css" />
+    <link rel="stylesheet" href="./css/components/product-grid.css" />
     <title>SyntaxWear - Tênis e Sneakers Online</title>
   </head>
   <body>
@@ -54,7 +58,7 @@
     </header>
 
     <main>
-      <section id="hero" class="hero">
+      <section class="hero">
         <div class="hero-overlay">
           <div class="hero-content">
             <span class="hero-subtitle">Krypton One</span>
@@ -67,7 +71,7 @@
         </div>
       </section>
 
-      <section id="shoes" class="category-shoes">
+      <section class="category-shoes">
         <div class="container">
           <article class="product-card">
             <img src="./images/products/tênis casual.jpg" alt="Tênis Casual" />
@@ -77,21 +81,30 @@
           </article>
 
           <article class="product-card">
-            <img src="./images/products/tênis esporte.jpg" alt="Tênis Esporte" />
+            <img
+              src="./images/products/tênis esporte.jpg"
+              alt="Tênis Esporte"
+            />
             <div class="product-card-overlay">
               <span class="product-card-label">Esporte</span>
             </div>
           </article>
 
           <article class="product-card">
-            <img src="./images/products/tênis moderno.jpg" alt="Tênis Moderno" />
+            <img
+              src="./images/products/tênis moderno.jpg"
+              alt="Tênis Moderno"
+            />
             <div class="product-card-overlay">
               <span class="product-card-label">Moderno</span>
             </div>
           </article>
 
           <article class="product-card">
-            <img src="./images/products/tênis futurista.jpg" alt="Tênis Futurista" />
+            <img
+              src="./images/products/tênis futurista.jpg"
+              alt="Tênis Futurista"
+            />
             <div class="product-card-overlay">
               <span class="product-card-label">Futurista</span>
             </div>
@@ -99,9 +112,50 @@
         </div>
       </section>
 
-      <section id="featured" class="product-grid">
+      <section class="product-grid">
         <div class="container">
-          <!-- Grid de produtos em destaque -->
+          <article id="krypton-one" class="grid-item">
+            <img class="banner" src="./images/products/card_imagem.jpg" alt="Krypton One" />
+            <div class="grid-item-overlay">
+              <div class="grid-item-content">
+                <span class="grid-item-subtitle">Krypton One</span>
+                <h3 class="grid-item-title">Estilo urbano com atitude</h3>
+                <div class="grid-item-buttons">
+                  <a href="#" class="btn btn-outline">Feminino</a>
+                  <a href="#" class="btn btn-outline">Masculino</a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article id="krypton-preto" class="grid-item">
+            <img
+              src="./images/products/krypton one preto azul.jpg"
+              alt="Tênis Colorido 2"
+            />
+          </article>
+
+          <article id="krypton-colorido" class="grid-item">
+            <img
+              src="./images/products/krypton one roxo e verde.jpg"
+              alt="Tênis Colorido"
+            />
+          </article>
+
+          <article id="modelo" class="grid-item">
+            <img src="./images/products/modelo.jpg" alt="Modelo Feminino" />
+          </article>
+
+          <article id="moderno" class="grid-item">
+            <img
+              src="./images/products/moderno.jpg"
+              alt="Tênis Azul e Branco"
+            />
+          </article>
+
+          <article id="futurista" class="grid-item">
+            <img src="./images/products/futurista.jpg" alt="Tênis Cinza" />
+          </article>
         </div>
       </section>
     </main>
