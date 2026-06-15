@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="./css/components/hero.css" />
     <link rel="stylesheet" href="./css/components/product-cards.css" />
     <link rel="stylesheet" href="./css/components/product-grid.css" />
+    <link rel="stylesheet" href="./css/components/footer.css" />
     <title>SyntaxWear - Tênis e Sneakers Online</title>
   </head>
   <body>
@@ -115,7 +116,11 @@
       <section class="product-grid">
         <div class="container">
           <article id="krypton-one" class="grid-item">
-            <img class="banner" src="./images/products/card_imagem.jpg" alt="Krypton One" />
+            <img
+              class="banner"
+              src="./images/products/card_imagem.jpg"
+              alt="Krypton One"
+            />
             <div class="grid-item-overlay">
               <div class="grid-item-content">
                 <span class="grid-item-subtitle">Krypton One</span>
@@ -160,9 +165,101 @@
       </section>
     </main>
 
-    <footer id="contact">
+    <footer class="footer">
       <div class="container footer__inner">
-        <!-- Informações de contato e links -->
+        <div class="footer__content">
+          <div class="footer-left">
+            <!-- Newsletter Section -->
+            <div class="footer__newsletter">
+              <p class="footer__newsletter-title">
+                Inscreva-se em nosso e-mail
+              </p>
+              <form class="footer__form">
+                <input
+                  type="email"
+                  class="footer__input"
+                  placeholder="email@email.com"
+                  required
+                />
+              </form>
+            </div>
+            <!-- Social Networks Section -->
+            <div class="footer__social">
+              <p class="footer__social-title">Redes sociais</p>
+              <nav class="footer__social-links">
+                <a href="#" class="btn btn-outline">
+                  <img src="./images/icons/instagram.svg" alt="Instagram" />
+                </a>
+                <a href="#" class="btn btn-outline">
+                  <img src="./images/icons/whatsapp.svg" alt="Whatsapp" />
+                </a>
+                <a href="#" class="btn btn-outline">
+                  <img src="./images/icons/tiktok.svg" alt="Tiktok" />
+                </a>
+                <a href="#" class="btn btn-outline">
+                  <img src="./images/icons/facebook.svg" alt="Facebook" />
+                </a>
+              </nav>
+            </div>
+          </div>
+
+          <!-- Navigation Menus -->
+          <nav class="footer__nav">
+            <!-- Masculino Menu -->
+            <div class="footer__nav-menu">
+              <h3 class="footer__menu-title">Masculino</h3>
+              <ul>
+                <li><a href="#">Casual</a></li>
+                <li><a href="#">Esporte</a></li>
+                <li><a href="#">Moderno</a></li>
+                <li><a href="#">Futurista</a></li>
+              </ul>
+            </div>
+
+            <!-- Feminino Menu -->
+            <div class="footer__nav-menu">
+              <h3 class="footer__menu-title">Feminino</h3>
+              <ul>
+                <li><a href="#">Casual</a></li>
+                <li><a href="#">Esporte</a></li>
+                <li><a href="#">Moderno</a></li>
+                <li><a href="#">Futurista</a></li>
+              </ul>
+            </div>
+
+            <!-- Outlet Menu -->
+            <div class="footer__nav-menu">
+              <h3 class="footer__menu-title">Outlet</h3>
+              <ul>
+                <li><a href="#">Masculino</a></li>
+                <li><a href="#">Feminino</a></li>
+              </ul>
+            </div>
+
+            <!-- Nossas Lojas Menu -->
+            <div class="footer__nav-menu">
+              <h3 class="footer__menu-title">Nossas lojas</h3>
+              <ul>
+                <li><a href="#">Loja física</a></li>
+                <li><a href="#">Loja online</a></li>
+              </ul>
+            </div>
+
+            <!-- Sobre Menu -->
+            <div class="footer__nav-menu">
+              <h3 class="footer__menu-title">Sobre</h3>
+              <ul>
+                <li><a href="#">Quem somos</a></li>
+                <li><a href="#">Missão</a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+
+        <!-- Copyright -->
+        <div class="footer__copyright">
+          <p>Copyright. All Rights Reserved</p>
+        </div>
       </div>
     </footer>
   </body>
